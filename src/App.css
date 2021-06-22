@@ -1,38 +1,308 @@
-.App {
+/* **** 
+*
+
+
+
+****  MES POLICES
+*/
+
+/* la regular  */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+/* la bold  */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap");
+
+/* **** 
+*
+****  GENERAL
+*/
+* {
+  font-family: "Comfortaa", cursive;
+}
+
+h1 {
+
+  padding: 10px 0 ;
+  text-align: center;
+  text-shadow: 3px 3px 3px #ffffff, 3px 3px 5px #ffffff, 3px 3px 10px #ffffff,
+  3px 3px 16px #000000, 3px 3px 28px #000000;
+}
+
+/* **** 
+*
+****  Header
+*/
+
+
+.App{
+
+  margin:0 5%;
+align-items: center;
+text-align: center;
+}
+
+nav {
+  display: flex;
+  background: #fdf9f9;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+
+ul li {
+  list-style: none;
+  margin-right: 20px;
+  
+  
+}
+
+ul :hover {
+  color: blue;
+  font-weight: 700;
+
+  
+}
+
+
+.panier{
+
+  align-items: center;
+  width: 80px;
+  height: 40px;
+  border-radius: 40%;
+  color: rgb(255, 0, 0);
+  padding-top: 10px;
+  background-color: rgb(250, 250, 250);
+
+  
+
+}
+
+.ban {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  height: 800px;
+}
+
+.Bann {
+  height: 400px;
+  background-image: url(https://res.cloudinary.com/sharing-cloud/image/upload/v1624002806/banniere-home_ccns6a.png);
+ 
+  background-size: cover;
+  background-position: center;
+}
+
+.boxBan {
+  color: white;
+  padding-top: 200px;
+  padding-right: 60%;
+  text-align: center;
+
+  font-family: Indie Flower, cursive, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+  font-size: 13px;
+
+  text-shadow: 3px 3px 3px #000000, 3px 3px 5px #000000, 3px 3px 10px #000000,
+    3px 3px 16px #000000, 3px 3px 28px #000000;
+}
+
+button {
+
+  color: white;
+  text-align: center;
+  font-size: 16px;
+
+  font-family: Indie Flower, cursive, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+ 
+  text-shadow: 3px 3px 3px #000000, 3px 3px 5px #000000, 3px 3px 10px #000000,
+    3px 3px 16px #000000, 3px 3px 28px #000000;
+}
+
+
+
+/* **************SAC HOVER ANIMATION ************** */
+
+/* **************SAC HOVER ANIMATION ************** */
+
+.AnimeImg {
+  opacity:0.5;
+  
+}
+
+.AnimeImg:hover {
+  opacity:1;
+  
+}
+
+.AnimeName:hover {
+  color: #ff7a59;
+  border: #ff7a59 solid 1px;
+  background:#fff;
+
+  
+}
+
+.AnimeBTN:hover {
+  border: none;
+  background: #ff7a59;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  position: relative;
+  transition: 800ms ; 
+
+}
+
+.AnimePrix:hover {
+  color: #ff7a59;
+  border: #ff7a59 solid 1px;
+  background:#fff;
+
+  
+}
+
+
+
+
+
+
+
+/* **************SAC HOVER ANIMATION ************** */
+
+/* **************SAC HOVER ANIMATION ************** */
+
+
+/* **** 
+*
+****  PARTIE2 Les cartes sacs
+*/
+
+
+
+.CARTE {
+  margin: 5px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.CARTE img {
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container{
   display: flex;
-  flex-direction: column;
   align-items: center;
+flex-wrap: wrap;
+margin: 0 10%
+
+}
+
+.Sac {
+
+ 
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  width: 300px;
+  height: 850px;
+  
+}
+
+.Sac img {
+  
+  width:300px;
+  border: 2px red solid;
+  
+}
+
+.Sac img :hover {
+  
+  width:300px;
+  border: 4px  blue solid;
+  
+}
+
+
+
+
+
+.Sacshop {
+  
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  width: 300px;
+  height: 850px;
+
+ 
+  
+
+}
+
+.Sacshop  img {
+  
+  width:300px;
+  
+}
+
+.Sacshop  button {
+
+ /* voir dossier malik  */
+ border: 2px red solid;
+}
+/* **** 
+*
+****  PARTIE 3  Les ENGAGEMENTS
+*/
+
+.ToutEngagement {
+  background-color: #f9f8f8;
+  height: 350px;
+
+  
+}
+
+.aligneEngagement {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+
+ 
 }
 
-.App-link {
-  color: #61dafb;
+.engagements {
+  background-color: white;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  height: 200px;
+
+  border: 2px red solid;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/* **** 
+*
+****  PARTIE4 FOOTER
+*/
+footer {
+  text-align: center;
+  background-color: rgb(233, 233, 233);
+}
+
+footer svg {
+  margin: 20px;
+
+  
 }
