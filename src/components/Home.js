@@ -6,7 +6,6 @@ import Engagements from "./Engagements.js";
 
 import Banniere from "./Banniere.js";
 
-import { useState } from "react";
 
 const Home = (props) => {
 
