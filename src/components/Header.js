@@ -13,7 +13,9 @@ const Header = (props) => {
     <header>
 
       <nav>
-        <svg
+      
+
+        <Link to="/HOME">   <svg  
           width="142"
           height="50"
           viewBox="0 0 142 50"
@@ -40,9 +42,16 @@ const Header = (props) => {
             d="M141.431 50H122.652V0H129.728V40.8027H141.431V50Z"
             fill="black"
           />
-        </svg>
+
+          
+        </svg> </Link>
         <ul>
           
+        <li>
+            <Link to="/HOME"> HOME </Link>
+          </li>
+
+
         <li>
             <Link to="/SHOP"> SHOP </Link>
           </li>

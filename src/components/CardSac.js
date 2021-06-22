@@ -2,10 +2,8 @@ const CardSac = (props) => {
   return (
     <div className="Sac">
 
-<div >
       <img className = "AnimeImg" src={props.imageSac} alt="" />
-      </div>
-
+     
       <div ClassName="Detail">
         <h1 className = "AnimeName"> {props.Nom} </h1>
 

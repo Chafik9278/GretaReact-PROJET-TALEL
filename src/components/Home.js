@@ -1,14 +1,22 @@
 import React from 'react'
 
-import ProduitPhares from "./components/ProduitPhares.js";
+import ProduitPhares from "./ProduitPhares.js";
 
-import Engagements from "./components/Engagements.js";
+import Engagements from "./Engagements.js";
 
-const Home = () => {
+import Banniere from "./Banniere.js";
+
+import { useState } from "react";
+
+const Home = (props) => {
+
+    
     return (
         <div>
 
-<ProduitPhares PanierSac={PanierSac} setPanierSac={setPanierSac} />
+<Banniere/>
+
+<ProduitPhares PanierSac={props.PanierSac} setPanierSac={props.setPanierSac} />
 
 <Engagements />
 

@@ -7,6 +7,7 @@ import Header from "./components/Header.js";
 
 
 
+
 import Footer from "./components/Footer.js";
 
 import PageShop from "./components/PageShop.js";
@@ -14,6 +15,8 @@ import PageShop from "./components/PageShop.js";
 import Contact from "./components/Contact.js";
 
 import Apropos from "./components/Apropos.js";
+
+import Home from "./components/Home.js";
 
 import React from "react";
 
@@ -29,6 +32,10 @@ function App() {
       <Router>
         <div>
           <Header PanierSac={PanierSac} />
+
+          <Route path="/HOME">
+              <Home />
+            </Route>
 
           <Switch>
             <Route path="/SHOP">
