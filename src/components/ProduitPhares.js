@@ -19,6 +19,9 @@ const ProduitPhares = (props) => {
                   Prix={LeSac.price}
                   Description={LeSac.Description}
                   Details={LeSac.Details}
+
+
+                  
                   PanierSac={props.PanierSac}
                   setPanierSac={props.setPanierSac}
                 />

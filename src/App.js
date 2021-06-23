@@ -32,7 +32,7 @@ function App() {
           <Header PanierSac={PanierSac} />
 
           <Route path="/HOME">
-              <Home  />
+              <Home  PanierSac={PanierSac} setPanierSac={setPanierSac} />
             </Route>
 
           <Switch>

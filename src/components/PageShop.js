@@ -1,9 +1,20 @@
 import CardSac from "./CardSac";
 import ShopBags from "../BaseData/ShopBags.js";
 
+
+
 const PageShop = (props) => {
   return (
+
+    <div>
+
+<img  className="Banshop"    src= "https://res.cloudinary.com/sharing-cloud/image/upload/v1624002806/banniere-shop_yqpezv.png " alt=" " />
+   
+
     <section className="container">
+
+ 
+
       {ShopBags.map((LeSac) => {
         return (
           <div className="Sacshop">
@@ -25,6 +36,7 @@ const PageShop = (props) => {
         );
       })}
     </section>
+    </div>
   );
 };
 

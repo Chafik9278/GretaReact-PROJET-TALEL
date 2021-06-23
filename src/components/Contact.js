@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Banniere from "./Banniere.js"
+
 
 const Contact = () => {
     return (
@@ -8,7 +8,8 @@ const Contact = () => {
 
            
 
-            <h1> je suis la page contact </h1>
+<img  className="Banshop"    src= "https://res.cloudinary.com/sharing-cloud/image/upload/v1624002806/banniere-shop_yqpezv.png " alt=" " />
+
 
 
             <div className="Box-contact">

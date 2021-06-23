@@ -189,7 +189,7 @@ ul :hover {
   font-size: 20px;
   border-radius: 5px;
   position: relative;
-  transition: 800ms;
+  transition: 1200ms;
 }
 
 .AnimePrix:hover {
@@ -225,6 +225,39 @@ ul :hover {
   box-shadow: rgb(179, 179, 179) 1px 1px 1px 1px;
 }
 
+
+/* **************************** */
+/* **** 
+*
+****  Components Page SHOP *****
+*/
+
+
+.Banshop {
+
+  width: 100%;
+}
+
+
+
+
+
+/* **************************** */
+/* **** 
+*
+****  Components  A PROPOS *****
+*/
+
+
+.containerpropos {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
 /* **** 
 *
 ****  components FOOTER ******
@@ -241,7 +274,7 @@ footer svg {
 
 
 
-/* ************************ */
+/* ***** CONTACT ******************* */
 
 .Box-contact{
   display: flex;
