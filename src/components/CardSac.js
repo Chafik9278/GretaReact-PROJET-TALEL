@@ -17,7 +17,7 @@ const CardSac = (props) => {
               props.setPanierSac(props.PanierSac + 1);
             }}
           >
-            Achetez - Moi
+            BUY ME
           </button>
         </div>
       </div>

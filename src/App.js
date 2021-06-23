@@ -15,12 +15,14 @@ import Apropos from "./components/Apropos.js";
 import Footer from "./components/Footer.js";
 
 
+import AnimeDescription from "./components/AnimeDescription.js"
+
 
 import React from "react";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
-function App() {
+function App(props) {
   // *********TOUS MES STATES*****
 
   const [PanierSac, setPanierSac] = useState(0);
@@ -30,6 +32,8 @@ function App() {
       <Router>
         <div>
           <Header PanierSac={PanierSac} />
+
+          
 
           <Route path="/HOME">
               <Home  PanierSac={PanierSac} setPanierSac={setPanierSac} />
@@ -53,7 +57,16 @@ function App() {
       </Router>
 
     
+
+
       <Footer />
+
+
+
+
+      <AnimeDescription />
+
+      
     </div>
   );
 }
