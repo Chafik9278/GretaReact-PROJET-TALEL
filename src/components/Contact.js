@@ -13,12 +13,6 @@ const Contact = () => {
         <h1> CONTACT</h1>
 
         <ul>
-
-        <li>Géneral : info@talelparis.com</li>
-        <li>Géneral : info@talelparis.com</li>
-        <li>Géneral : info@talelparis.com</li>
-
-
           <li>Géneral : info@talelparis.com</li>
           <li>Revendeurs : sales@talelparis.com</li>
           <li>Presse/communication : pr@talelparis.com</li>

@@ -29,6 +29,7 @@ function App(props) {
         <div>
           <Header PanierSac={PanierSac} />
 
+<Home/>
           <Route path="/HOME">
             <Home PanierSac={PanierSac} setPanierSac={setPanierSac} />
           </Route>
