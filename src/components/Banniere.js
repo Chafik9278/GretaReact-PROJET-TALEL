@@ -5,7 +5,7 @@ const Banniere = () => {
     <div>
       <div className="Banniere">
         <div className="BoxBanniere">
-          <h1> NEWS  </h1>
+          <h1> NEWS </h1>
           <button> DECOUVRIR </button>
         </div>
       </div>

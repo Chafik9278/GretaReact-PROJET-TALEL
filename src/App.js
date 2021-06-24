@@ -14,10 +14,6 @@ import Apropos from "./components/Apropos.js";
 
 import Footer from "./components/Footer.js";
 
-
-import AnimeDescription from "./components/AnimeDescription.js"
-
-
 import React from "react";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -33,11 +29,9 @@ function App(props) {
         <div>
           <Header PanierSac={PanierSac} />
 
-          
-
           <Route path="/HOME">
-              <Home  PanierSac={PanierSac} setPanierSac={setPanierSac} />
-            </Route>
+            <Home PanierSac={PanierSac} setPanierSac={setPanierSac} />
+          </Route>
 
           <Switch>
             <Route path="/SHOP">
@@ -51,22 +45,11 @@ function App(props) {
             <Route path="/CONTACT">
               <Contact />
             </Route>
-
           </Switch>
         </div>
       </Router>
 
-    
-
-
       <Footer />
-
-
-
-
-      <AnimeDescription />
-
-      
     </div>
   );
 }

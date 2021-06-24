@@ -1,50 +1,50 @@
-import React from 'react'
-
-
+import React from "react";
 
 const Contact = () => {
-    return (
-        <div>
+  return (
+    <div className="Box-contact">
+      <img
+        className="Banshop"
+        src="https://res.cloudinary.com/sharing-cloud/image/upload/v1624002805/banniere-contact_aoek3b.png "
+        alt=" "
+      />
 
-           
+      <div className="contact">
+        <h1> CONTACT</h1>
 
-<img  className="Banshop"    src= "https://res.cloudinary.com/sharing-cloud/image/upload/v1624002806/banniere-shop_yqpezv.png " alt=" " />
+        <ul>
+          <li>Géneral : info@talelparis.com</li>
+          <li>Revendeurs : sales@talelparis.com</li>
+          <li>Presse/communication : pr@talelparis.com</li>
+          <li>Autres : collection@talelparis.com</li>
+        </ul>
+      </div>
 
+      <form>
+        <label>Nom prénom</label>
+        <input type="text" placeholder="Votre nom et prénom" />
 
+        <label for="sujet">Sujet</label>
+        <input
+          type="text"
+          name="sujet"
+          placeholder="L'objet de votre message"
+        />
 
-            <div className="Box-contact">
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Votre email" />
 
-                <img className="AnimeImg" src=" https://ancre-magazine.com/wp-content/uploads/2021/01/sac-femme-triangle-talel-paris-2-1.jpg " alt="" />
+        <label>Message</label>
+        <textarea
+          name="subject"
+          rows="10"
+          placeholder="Taper Votre message"
+        ></textarea>
 
-                <section>
+        <input type="submit" value="Envoyer" />
+      </form>
+    </div>
+  );
+};
 
-                    <h1>Formulaire de contact</h1>
-
-                    <form action="/action_page.php">
-
-                        <label >Nom prénom</label>
-                        <input type="text"  placeholder="Votre nom et prénom"/>
-
-                            <label for="sujet">Sujet</label>
-                            <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message"/>
-
-                                <label >Email</label>
-                                <input  type="email" name="email" placeholder="Votre email"/>
-
-
-                                    <label >Message</label>
-                                    <textarea name="subject" ></textarea>
-
-                                    <input type="submit" value="Envoyer"/>
-
-                                        </form >
-
-                                        </section >
-                                        
-                                        </div>
-                                        
-                                        </div>
-                        )
-}
-
-                        export default Contact
+export default Contact;

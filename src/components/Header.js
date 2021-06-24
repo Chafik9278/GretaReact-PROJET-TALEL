@@ -72,7 +72,6 @@ const Header = (props) => {
                 </svg>
 
                 <span> {props.PanierSac} </span>
-                
               </div>
             </div>
           </li>
