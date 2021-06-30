@@ -18,10 +18,10 @@ const CardSac = (props) => {
           Description: Genderless and timeless, the mini version of our triangle
           bags will be the perfect final touch for all your outfits.
           <p>
-            {" "}
+            
             These cute graphic bags exist in a variety of colors that will match
             every look. These unique bags are perfect for a casual day and night
-            occasions.{" "}
+            occasions.
           </p>
         </p>
       </div>

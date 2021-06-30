@@ -2,7 +2,7 @@ import CardSac from "./CardSac";
 import BagsPhare from "../BaseData/BagsPhare.js";
 
 const ProduitPhares = (props) => {
-  // *********TOUS MES STATES*****
+  
 
   return (
     <div>

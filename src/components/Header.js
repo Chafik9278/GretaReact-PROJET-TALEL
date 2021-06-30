@@ -3,8 +3,6 @@ import React from "react";
 import { BrowserRouter as Router, Link } from "react-router-dom";
 
 const Header = (props) => {
-  // *********TOUS MES STATES*****
-
   return (
     <header>
       <nav>
@@ -38,6 +36,7 @@ const Header = (props) => {
             />
           </svg>
         </Link>
+
         <ul>
           <li>
             <Link to="/HOME"> HOME </Link>

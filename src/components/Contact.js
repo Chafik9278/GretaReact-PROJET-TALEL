@@ -24,7 +24,7 @@ const Contact = () => {
 
       <form>
         <label>Nom </label>
-        <p>
+        <p className="error-name">
           {GoogName === "aaa" || GoogName === "aaaa" || GoogName === "aaaaa"
             ? "Pouvez vous mettre votre nom svp"
             : null}
