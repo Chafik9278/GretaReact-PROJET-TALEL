@@ -3,7 +3,7 @@ import ShopBags from "../BaseData/ShopBags.js";
 
 const PageShop = (props) => {
   return (
-    <div className="Box-shop" >
+    <div className="Box-shop">
       <img
         className="Banshop"
         src="https://res.cloudinary.com/sharing-cloud/image/upload/v1624002806/banniere-shop_yqpezv.png "

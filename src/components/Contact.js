@@ -1,6 +1,8 @@
 import React from "react";
+import { useState } from "react";
 
 const Contact = () => {
+  const [GoogName, setGoogName] = useState("");
   return (
     <div className="Box-contact">
       <img
@@ -21,8 +23,20 @@ const Contact = () => {
       </div>
 
       <form>
-        <label>Nom prénom</label>
-        <input type="text" placeholder="Votre nom et prénom" />
+        <label>Nom </label>
+        <p>
+          {GoogName === "aaa" || GoogName === "aaaa" || GoogName === "aaaaa"
+            ? "Pouvez vous mettre votre nom svp"
+            : null}
+        </p>
+        <input
+          type="text"
+          placeholder="Votre nom"
+          value={GoogName}
+          onChange={(event) => {
+            setGoogName(event.target.value);
+          }}
+        />
 
         <label for="sujet">Sujet</label>
         <input

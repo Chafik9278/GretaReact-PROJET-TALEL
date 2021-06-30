@@ -19,6 +19,7 @@ import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App(props) {
+  
   // *********TOUS MES STATES*****
 
   const [PanierSac, setPanierSac] = useState(0);
@@ -29,7 +30,6 @@ function App(props) {
         <div>
           <Header PanierSac={PanierSac} />
 
-<Home/>
           <Route path="/HOME">
             <Home PanierSac={PanierSac} setPanierSac={setPanierSac} />
           </Route>

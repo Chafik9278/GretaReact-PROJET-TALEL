@@ -54,18 +54,21 @@ ul {
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-decoration: none;
 }
 
 ul li {
   list-style: none;
   margin-right: 30px;
   font-weight: bold;
-  color: #000000;
+  text-decoration: none;
 }
 
 ul :hover {
-  color: blue;
   font-size: 18px;
+  color: #000000;
+  background-color: white;
+  text-decoration: none;
 }
 
 .panier {
@@ -93,7 +96,6 @@ ul :hover {
 }
 
 .BoxBanniere {
-  color: white;
   padding-top: 200px;
   padding-right: 60%;
   text-align: center;
@@ -107,14 +109,12 @@ ul :hover {
 }
 
 .BoxBanniere button {
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   font-size: 16px;
-
   font-family: Indie Flower, cursive, -apple-system, BlinkMacSystemFont,
     Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
-
-  text-shadow: 3px 3px 3px #000000, 3px 3px 5px #000000, 3px 3px 10px #000000,
+  text-shadow: 3px 3px 3px #ffffff, 3px 3px 5px #ffffff, 3px 3px 10px #ffffff,
     3px 3px 16px #000000, 3px 3px 28px #000000;
 }
 
@@ -138,77 +138,12 @@ ul :hover {
   align-items: center;
   padding: 10px;
   width: 300px;
-  height: 600px;
+  height: 520px;
 }
 
 .Sacshop button {
   border: 1px #f9f8f8;
-  color: #1255a2;
-  /* voir dossier malik  */
-}
-
-/* **** 
-*
-*********  Components CardSac  *******************
-*/
-
-.Sac {
-  margin: 10px;
-  text-align: center;
-  align-items: center;
-  padding: 10px;
-  width: 100%;
-  height: 100%;
-  background-color: #fafafa;
-}
-
-.Sac-content {
-  display: none;
-  position: absolute;
-  text-align: center;
-}
-
-.Sac:hover .Sac-content {
-  display: block;
-  width: 300px;
-}
-
-.Sac img {
-  width: 300px;
-  object-fit: contain;
-}
-
-
-
-/* **************SAC HOVER ANIMATION ************** */
-
-/* **************SAC HOVER ANIMATION ************** */
-
-.AnimeImg:hover {
-  opacity: 0.4;
-}
-
-.AnimeName:hover {
-  color: #ff7a59;
-  border: #ff7a59 solid 1px;
-  background: #fff;
-}
-
-.AnimeBTN:hover {
-  border: none;
-  background: #ff7a59;
-  color: #fff;
-  padding: 10px;
-  font-size: 20px;
-  border-radius: 5px;
-  position: relative;
-  transition: 1200ms;
-}
-
-.AnimePrix:hover {
-  color: #ff7a59;
-  border: #ff7a59 solid 1px;
-  background: #fff;
+  color: #000000;
 }
 
 /* **************************** */
@@ -219,6 +154,10 @@ ul :hover {
 
 .boxEngagement {
   background-color: #f9f8f8;
+}
+
+.boxEngagement h1 {
+  padding-top: 30px;
 }
 
 .aligneEngagement {
@@ -238,6 +177,37 @@ ul :hover {
   box-shadow: rgb(179, 179, 179) 1px 1px 1px 1px;
 }
 
+/* **** 
+*
+****  components FOOTER ******
+*/
+
+.White {
+  transition: 2000ms;
+  margin: 20px 0 10px 0;
+  text-align: center;
+  background-color: #f9f8f8;
+  width: 100%;
+  height: 100%;
+}
+
+.Black {
+  transition: 3000ms;
+  background-color: rgb(0, 0, 0);
+  margin: 20px 0 10px 0;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+footer svg {
+  margin: 20px;
+  padding: 10px;
+  width: 50px;
+  height: 30px;
+  background-color: white;
+}
+
 /* **************************** */
 /* **** 
 *
@@ -248,7 +218,7 @@ ul :hover {
   width: 100%;
 }
 
-.Box-shop{
+.Box-shop {
   width: 90%;
   margin: 0 auto;
 }
@@ -292,6 +262,7 @@ ul :hover {
 .apropos2 img {
   width: 90%;
   height: 400px;
+  object-fit: fill;
 }
 
 .apropos2 h1 {
@@ -302,22 +273,6 @@ ul :hover {
 .apropos2 p {
   width: 100%;
   text-align: left;
-}
-
-/* **** 
-*
-****  components FOOTER ******
-*/
-footer {
-  margin: 20px 0 10px 0;
-  text-align: center;
-  background-color: #f9f8f8;
-  width: 100%;
-  height: 100%;
-}
-
-footer svg {
-  margin: 20px;
 }
 
 /* *****  Page CONTACT ******************* */
@@ -373,19 +328,19 @@ input[type="submit"]:hover {
   background-color: #1872d9;
 }
 
-/* ***** Description Animation  ******************* */
+/* **** 
+*
+*********  Components CardSac  *******************
+*/
 
-.AnimeYes {
-  opacity: 0.6;
-  width: 300px;
-  height: 500px;
-  margin: 0 auto;
-}
-
-.AnimeNo {
-  width: 300px;
-  height: 500px;
-  margin: 0 auto;
+.Sac {
+  margin: 10px;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  background-color: #fafafa;
 }
 
 .Sac-content {
@@ -399,4 +354,50 @@ input[type="submit"]:hover {
 
 .Sac:hover .Sac-content {
   display: block;
+  width: 270px;
+}
+
+.Sac img {
+  width: 300px;
+  object-fit: contain;
+}
+
+.Description {
+  text-align: left;
+}
+
+/* **************SAC HOVER ANIMATION ************** */
+
+.AnimeImg:hover {
+  opacity: 0.4;
+}
+
+.AnimeBTN {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  font-size: 16px;
+
+  font-family: Indie Flower, cursive, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+}
+
+.AnimeBTN:hover {
+  transition: 1000ms;
+  width: 100px;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+
+  font-family: Indie Flower, cursive, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+  text-shadow: 3px 3px 3px #000000, 3px 3px 5px #000000, 3px 3px 10px #000000,
+    3px 3px 16px #000000, 3px 3px 28px #000000;
+}
+
+.AnimePrix:hover {
+  font-family: Indie Flower, cursive, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif;
+  transition: 1000ms;
+  font-size: 20px;
 }

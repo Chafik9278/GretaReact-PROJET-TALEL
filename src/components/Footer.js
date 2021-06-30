@@ -1,10 +1,21 @@
 import React from "react";
+import "../App.css";
+import { useState } from "react";
 
 const Footer = () => {
-  // *********TOUS MES STATES*****
+  const [ChangeFooter, setChangeFooter] = useState("hide");
 
   return (
-    <footer>
+    <footer
+      className={ChangeFooter === "yes" ? "Black" : "White"}
+      onClick={() => {
+        if (ChangeFooter === "yes") {
+          setChangeFooter("hide");
+        } else {
+          setChangeFooter("yes");
+        }
+      }}
+    >
       <svg
         width="14"
         height="25"
