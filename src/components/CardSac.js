@@ -15,13 +15,10 @@ const CardSac = (props) => {
         <h3 className="AnimePrix"> {props.Prix + " EUR"} </h3>
 
         <p className="Description">
-          Description: Genderless and timeless, the mini version of our triangle
-          bags will be the perfect final touch for all your outfits.
+        {"Descrition :" + props.Description}
           <p>
             
-            These cute graphic bags exist in a variety of colors that will match
-            every look. These unique bags are perfect for a casual day and night
-            occasions.
+          Details: Crafted in Paris Embossed TALEL logo Dimensions: height 10cm, depth 12cm, width 12cm - Composition 100% leather 
           </p>
         </p>
       </div>

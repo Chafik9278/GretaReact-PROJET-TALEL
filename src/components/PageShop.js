@@ -20,6 +20,8 @@ const PageShop = (props) => {
                 imageSac={LeSac.imageURL}
                 Nom={LeSac.name}
                 Prix={LeSac.price}
+                Description= {LeSac.Description}
+            
                 PanierSac={props.PanierSac}
                 setPanierSac={props.setPanierSac}
               />

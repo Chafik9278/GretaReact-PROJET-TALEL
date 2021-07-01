@@ -1,56 +1,47 @@
 const ShopBags = [
   {
-    name: "Mini WhiteTalel ",
+    name: "Mini White Talel",
     imageURL:
       "https://res.cloudinary.com/sharing-cloud/image/upload/v1624002808/blanc_ntnc6c.png",
     price: 350,
     Description:
-      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits. These cute graphic bags exist in a variety of colors that will match every look. These unique bags are perfect for a casual day and night occasions. Carry it by the two handles or by the adjustable and removable leather strap",
-    details:
-      "Crafted in Italy  Embossed TALEL logo - Dimensions: height 10cm, depth 12cm, width 12cm - Composition 100% leather - Soft and removable nappa pouch in buttery lambskin - Adjustable and removable long leather strap - Comes with TALEL dustbag",
+      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits.",
   },
 
   {
     name: "Mini Black Talel",
     imageURL:
       "https://res.cloudinary.com/sharing-cloud/image/upload/v1624002808/noir_r0nr1f.png",
-    price: 350,
+    price: 351,
     Description:
-      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits. These cute graphic bags exist in a variety of colors that will match every look. These unique bags are perfect for a casual day and night occasions. Carry it by the two handles or by the adjustable and removable leather strap",
-    details:
-      "Crafted in Italy  Embossed TALEL logo - Dimensions: height 10cm, depth 12cm, width 12cm - Composition 100% leather - Soft and removable nappa pouch in buttery lambskin - Adjustable and removable long leather strap - Comes with TALEL dustbag",
+      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits.",
   },
 
   {
     name: "Mini Brown Talel ",
     imageURL:
       "https://res.cloudinary.com/sharing-cloud/image/upload/v1624002809/marron_dokjio.png",
-    price: 350,
+    price: 352,
     Description:
-      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits. These cute graphic bags exist in a variety of colors that will match every look. These unique bags are perfect for a casual day and night occasions. Carry it by the two handles or by the adjustable and removable leather strap",
-    details:
-      "Crafted in Italy  Embossed TALEL logo - Dimensions: height 10cm, depth 12cm, width 12cm - Composition 100% leather - Soft and removable nappa pouch in buttery lambskin - Adjustable and removable long leather strap - Comes with TALEL dustbag",
+      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits.",
   },
 
   {
     name: "Mini Pink Talel ",
     imageURL:
       "https://res.cloudinary.com/sharing-cloud/image/upload/v1624002809/rose_spq8mz.png",
-    price: 350,
+    price: 353,
     Description:
-      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits. These cute graphic bags exist in a variety of colors that will match every look. These unique bags are perfect for a casual day and night occasions. Carry it by the two handles or by the adjustable and removable leather strap",
-    details:
-      "Crafted in Italy  Embossed TALEL logo - Dimensions: height 10cm, depth 12cm, width 12cm - Composition 100% leather - Soft and removable nappa pouch in buttery lambskin - Adjustable and removable long leather strap - Comes with TALEL dustbag",
+      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits.",
   },
   {
     name: "Mini Green Talel",
     imageURL:
       "https://res.cloudinary.com/sharing-cloud/image/upload/v1624002809/vert_fluo_jaz5r8.png",
-    price: 350,
+    price: 354,
+
     Description:
-      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits. These cute graphic bags exist in a variety of colors that will match every look. These unique bags are perfect for a casual day and night occasions. Carry it by the two handles or by the adjustable and removable leather strap",
-    details:
-      "Crafted in Italy  Embossed TALEL logo - Dimensions: height 10cm, depth 12cm, width 12cm - Composition 100% leather - Soft and removable nappa pouch in buttery lambskin - Adjustable and removable long leather strap - Comes with TALEL dustbag",
+      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits.",
   },
 
   {
@@ -59,9 +50,7 @@ const ShopBags = [
       "https://res.cloudinary.com/sharing-cloud/image/upload/v1624002809/violet_tfympe.png",
     price: 350,
     Description:
-      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits. These cute graphic bags exist in a variety of colors that will match every look. These unique bags are perfect for a casual day and night occasions. Carry it by the two handles or by the adjustable and removable leather strap",
-    details:
-      "Crafted in Italy  Embossed TALEL logo - Dimensions: height 10cm, depth 12cm, width 12cm - Composition 100% leather - Soft and removable nappa pouch in buttery lambskin - Adjustable and removable long leather strap - Comes with TALEL dustbag",
+      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits.",
   },
 
   {
@@ -70,9 +59,7 @@ const ShopBags = [
       "https://res.cloudinary.com/sharing-cloud/image/upload/v1624002809/orange_mfx3m5.png",
     price: 350,
     Description:
-      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits. These cute graphic bags exist in a variety of colors that will match every look. These unique bags are perfect for a casual day and night occasions. Carry it by the two handles or by the adjustable and removable leather strap",
-    details:
-      "Crafted in Italy  Embossed TALEL logo - Dimensions: height 10cm, depth 12cm, width 12cm - Composition 100% leather - Soft and removable nappa pouch in buttery lambskin - Adjustable and removable long leather strap - Comes with TALEL dustbag",
+      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits.",
   },
   {
     name: "Mini Blue Talel",
@@ -80,9 +67,7 @@ const ShopBags = [
       "https://res.cloudinary.com/sharing-cloud/image/upload/v1624002808/bleu_b28r8o.png",
     price: 350,
     Description:
-      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits. These cute graphic bags exist in a variety of colors that will match every look. These unique bags are perfect for a casual day and night occasions. Carry it by the two handles or by the adjustable and removable leather strap",
-    details:
-      "Crafted in Italy  Embossed TALEL logo - Dimensions: height 10cm, depth 12cm, width 12cm - Composition 100% leather - Soft and removable nappa pouch in buttery lambskin - Adjustable and removable long leather strap - Comes with TALEL dustbag",
+      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits.",
   },
   {
     name: "Mini Flower Talel ",
@@ -90,30 +75,24 @@ const ShopBags = [
       "https://res.cloudinary.com/sharing-cloud/image/upload/v1624002808/jungle_dgciuu.png",
     price: 350,
     Description:
-      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits. These cute graphic bags exist in a variety of colors that will match every look. These unique bags are perfect for a casual day and night occasions. Carry it by the two handles or by the adjustable and removable leather strap",
-    details:
-      "Crafted in Italy  Embossed TALEL logo - Dimensions: height 10cm, depth 12cm, width 12cm - Composition 100% leather - Soft and removable nappa pouch in buttery lambskin - Adjustable and removable long leather strap - Comes with TALEL dustbag",
+      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits.",
   },
 
   {
-    name: "Mini White-Zebra Talel ",
+    name: "Mini Zebra/White Talel",
     imageURL:
       "https://res.cloudinary.com/sharing-cloud/image/upload/v1624002809/zebre_blanc_xoib7j.png",
     price: 350,
     Description:
-      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits. These cute graphic bags exist in a variety of colors that will match every look. These unique bags are perfect for a casual day and night occasions. Carry it by the two handles or by the adjustable and removable leather strap",
-    details:
-      "Crafted in Italy  Embossed TALEL logo - Dimensions: height 10cm, depth 12cm, width 12cm - Composition 100% leather - Soft and removable nappa pouch in buttery lambskin - Adjustable and removable long leather strap - Comes with TALEL dustbag",
+      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits.",
   },
   {
-    name: "Mini ebra Talel ",
+    name: "Mini Zebra/Black Talel",
     imageURL:
       "https://res.cloudinary.com/sharing-cloud/image/upload/v1624002809/zebre_noir_qjzpg5.png",
     price: 350,
     Description:
-      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits. These cute graphic bags exist in a variety of colors that will match every look. These unique bags are perfect for a casual day and night occasions. Carry it by the two handles or by the adjustable and removable leather strap",
-    details:
-      "Crafted in Italy  Embossed TALEL logo - Dimensions: height 10cm, depth 12cm, width 12cm - Composition 100% leather - Soft and removable nappa pouch in buttery lambskin - Adjustable and removable long leather strap - Comes with TALEL dustbag",
+      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits.",
   },
 ];
 
