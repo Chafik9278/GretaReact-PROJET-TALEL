@@ -14,7 +14,7 @@ const ShopBags = [
       "https://res.cloudinary.com/sharing-cloud/image/upload/v1624002808/noir_r0nr1f.png",
     price: 351,
     Description:
-      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits.",
+      "351-Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits.",
   },
 
   {
@@ -23,7 +23,7 @@ const ShopBags = [
       "https://res.cloudinary.com/sharing-cloud/image/upload/v1624002809/marron_dokjio.png",
     price: 352,
     Description:
-      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits.",
+      "352-Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits.",
   },
 
   {
@@ -32,12 +32,12 @@ const ShopBags = [
       "https://res.cloudinary.com/sharing-cloud/image/upload/v1624002809/rose_spq8mz.png",
     price: 353,
     Description:
-      "Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits.",
+      "353-Genderless and timeless, the mini version of our triangle bags will be the perfect final touch for all your outfits.",
   },
   {
     name: "Mini Green Talel",
     imageURL:
-      "https://res.cloudinary.com/sharing-cloud/image/upload/v1624002809/vert_fluo_jaz5r8.png",
+      "https://res.cloudinary.com/sharing-cloud/image/upload/v1624002809/vert_rhygsx.png",
     price: 354,
 
     Description:
